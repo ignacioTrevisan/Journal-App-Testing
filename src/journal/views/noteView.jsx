@@ -43,7 +43,6 @@ export const NoteView = () => {
     useEffect(() => {
         console.log(messageDelete)
         if (messageDelete.includes('Nota')) {
-            console.log("entro aca 2")
 
             Swal.fire({
                 title: 'Eliminacion de nota',
